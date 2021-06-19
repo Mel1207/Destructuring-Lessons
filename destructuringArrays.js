@@ -40,3 +40,11 @@ allias5(allias1, allias2, allias3, allias4),
 
 // this is spread operator - im simply calling all the values of the array, this will work same as we run above
 allias5(...namesArray)
+
+// how we can destructure arrays inside an array well see this example below
+// this is what we called nested arrays
+// so same process with regular , we can skip, we can add value on nested array if js cant find equal value inside the nested arrays
+const mixArr = ['menu1', 'menu2', 'menu3', [true, false]];
+
+const destructuredMixArr = [item1, item2, item3, [value1, value2]] = mixArr;
+console.log(item1, item2, item3, value1, value2);
