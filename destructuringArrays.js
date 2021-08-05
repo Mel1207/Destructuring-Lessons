@@ -2,7 +2,7 @@ const namesArray = [
     'mel', 
     'john', 
     'joey', 
-    'james', 
+    'james',  
     function greetNames (bossCEO, secretary, dev, frontEnd) {
         console.log(`ito ang team CIPH ${bossCEO} as CEO of CIPH, ${secretary} as secretary, ${dev} as lead developer and ${frontEnd} as front end lead`)
     }
